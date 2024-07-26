@@ -34,7 +34,7 @@ document.addEventListener(
   function () {
     saveVia();
 
-    const affName = sessionStorage.getItem("via");
+    const affName = sessionStorage.getItem("affiliateName");
     if (affName) {
       document
         .querySelectorAll('[data-cta="login"]')
